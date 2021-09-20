@@ -8,6 +8,7 @@
 </head>
 <body>
 
-<a href="signup">Add User</a><br>
+<a href="signup">Add User</a>  |  <a href="users">List User</a> 
+
 </body>
 </html>
