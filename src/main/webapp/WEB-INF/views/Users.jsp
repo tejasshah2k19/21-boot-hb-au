@@ -10,11 +10,11 @@
 <body>
 
 	<h2>List All Users</h2>
-	
-	
+
+
 	<a href="home">Home</a>
 	<br>
-	
+
 	<br>
 	<table border="1">
 		<tr>
@@ -26,7 +26,8 @@
 			<tr>
 				<td>${user.userId}</td>
 				<td>${user.firstName}</td>
-				<td>Delete | Edit | <a href="users/${user.userId}"> View</a> </td>
+				<td><a href="deleteuser/${user.userId}">Delete</a> | Edit | <a
+					href="users/${user.userId}"> View</a></td>
 			</tr>
 		</c:forEach>
 	</table>

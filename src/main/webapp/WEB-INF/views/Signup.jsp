@@ -11,6 +11,7 @@
 	FirstName: <input type="text" name="firstName" /><Br>
 	Email: <input type="text" name="email"/><br>
 	Password: <input type="password" name="password"/><br>
+	City : <input type="text" name="profile.city"/><br>
 	<input type="submit" value="Signup"/>
 </form>
 
